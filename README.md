@@ -51,4 +51,4 @@ git branch -d feature/nome-da-feature
 
 ## Regras para Aprovação de PR
 
-- Todo PR deve ser revisado e aprovado por dois desenvolvedores antes de ser mesclado à branch `develop` ou `main`.
+- Todo PR deve ser revisado e aprovado por ao menos um desenvolvedor antes de ser mesclado às branches `develop` ou `main`.
