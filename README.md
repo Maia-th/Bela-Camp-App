@@ -1,8 +1,8 @@
-# Exilio
+# Supermercado Bela Camp App
 
 ⚠️ Este projeto está em desenvolvimento ativo. 
 
-<img alt='Prototipo Figma' src='.github/assets/FigmaExilio.jpeg'/>
+![image](https://github.com/user-attachments/assets/e7a59158-3db1-491f-b20b-b779b8c5f968)
 
 - [Template de Pull Request](.github/docs/pull-request-template.md)
 
