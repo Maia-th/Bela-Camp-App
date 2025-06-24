@@ -2,7 +2,11 @@
 
 ⚠️ Este projeto está em desenvolvimento ativo. 
 
-![image](https://github.com/user-attachments/assets/e7a59158-3db1-491f-b20b-b779b8c5f968)
+<div align="center">
+
+![image](https://github.com/user-attachments/assets/57034ed7-1272-4518-b73f-7865cad64f5a)
+
+</div>
 
 - [Template de Pull Request](.github/docs/pull-request-template.md)
 
