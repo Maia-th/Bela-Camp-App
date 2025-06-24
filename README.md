@@ -8,7 +8,41 @@
 
 </div>
 
-- [Template de Pull Request](.github/docs/pull-request-template.md)
+- [Template de Pull Request](.github/pull-request-template.md)
+
+## ✅ Requisitos do Ambiente
+
+Antes de iniciar, verifique se você possui instalado:
+
+* [Node.js](https://nodejs.org/) (versão recomendada: LTS)
+* App **Expo Go** no seu dispositivo móvel (disponível na [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) e [App Store](https://apps.apple.com/app/expo-go/id982107779))
+
+## 📦 Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Maia-th/Bela-Camp-App.git
+cd Bela-Camp-App
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+## 🚀 Iniciar o Projeto
+
+Inicie o projeto localmente com:
+
+```bash
+expo start
+```
+
+Isso abrirá uma aba no navegador. Use o **QR Code** exibido para rodar o app no seu celular com o **Expo Go**.
+
+> 💡 **Dica:** Certifique-se de que seu computador e celular estejam na **mesma rede Wi-Fi**.
 
 ## Fluxo de Desenvolvimento
 
@@ -56,3 +90,8 @@ git branch -d feature/nome-da-feature
 ## Regras para Aprovação de PR
 
 - Todo PR deve ser revisado e aprovado por ao menos um desenvolvedor antes de ser mesclado às branches `develop` ou `main`.
+
+## Bibliotecas Externas
+
+- NativeWind — Utilizada para estilização com classes Tailwind CSS no React Native.
+- Lucide — Biblioteca de ícones leves e modernos para React Native.
