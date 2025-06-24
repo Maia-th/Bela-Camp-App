@@ -37,10 +37,10 @@ npm install
 Inicie o projeto localmente com:
 
 ```bash
-expo start
+npx expo start
 ```
 
-Isso abrirá uma aba no navegador. Use o **QR Code** exibido para rodar o app no seu celular com o **Expo Go**.
+Use o **QR Code** exibido para rodar o app no seu celular com o **Expo Go**.
 
 > 💡 **Dica:** Certifique-se de que seu computador e celular estejam na **mesma rede Wi-Fi**.
 

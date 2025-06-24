@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Bela-Camp-App",
-    "slug": "Bela-Camp-App",
+    "name": "Bela Camp Supermercados",
+    "slug": "Bela Camp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,6 +20,7 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
+      "favicon": "./assets/images/favicon.png",
       "bundler": "metro",
       "output": "static"
     },
