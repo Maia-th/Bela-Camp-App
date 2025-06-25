@@ -1,6 +1,14 @@
 # Supermercado Bela Camp App
 
+<div align="center">
+
 ⚠️ Este projeto está em desenvolvimento ativo. 
+
+</div>
+
+Este é o início do aplicativo oficial do Supermercado Bela Camp. Nesta primeira versão (MVP), o app funcionará como um catálogo digital, permitindo que os usuários explorem os produtos disponíveis na loja. A proposta, no entanto, é evoluir este MVP para um aplicativo completo de compras, com funcionalidades como carrinho, pedidos online e integração com formas de pagamento.
+
+O projeto está sendo desenvolvido com React Native, utilizando o Expo, com TypeScript e Expo Router para navegação.
 
 <div align="center">
 
