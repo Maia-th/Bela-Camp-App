@@ -1,18 +1,11 @@
-import "./global.css";
+import "../styles/global.css";
 import { Slot } from 'expo-router';
-import { SafeAreaView, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native';
 
 export default function RootLayout() {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView>
       <Slot />
     </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
-});
