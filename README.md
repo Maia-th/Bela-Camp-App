@@ -1,8 +1,8 @@
 # Supermercado Bela Camp App
 
 <div align="center">
-
-⚠️ Este projeto está em desenvolvimento ativo. 
+  
+ ⚠️ **Projeto em Desenvolvimento Ativo** ⚠️
 
 </div>
 
