@@ -72,6 +72,15 @@ cd mobile
 npx expo start
 ```
 
+> ⚠️ **Observação**:
+> Se for rodar o aplicativo em um **dispositivo físico**, edite o arquivo `mobile/constants/api.js` e atualize o `API_URL` com o **IP da sua máquina** na rede local, por exemplo:
+>
+> ```js
+> export const API_URL = "http://192.168.x.x:5001/api";
+> ```
+>
+> (substitua `192.168.x.x` pelo IP do seu computador, que deve estar na mesma rede Wi-Fi do dispositivo).
+
 ## 📚 Tecnologias Utilizadas
 
 * **React Native + Expo** — Frontend mobile
