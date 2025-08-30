@@ -9,7 +9,6 @@ Projeto mobile para exploração de receitas culinárias, com autenticação via
 Antes de iniciar, verifique se possui instalado:
 
 - Node.js
-- PostgreSQL
 - App **Expo Go** no dispositivo móvel
 
 ## 📦 Instalação
@@ -37,9 +36,10 @@ npm install
 
 ```bash
 PORT=5001
-DATABASE_URL=sua_url_do_banco
+DATABASE_URL=sua_url_do_banco_neon
 NODE_ENV=development
 ```
+> Obtenha a URL de conexão do banco de dados em: [Neon Dashboard](https://console.neon.tech/app/projects)
 
 ### Mobile (`/mobile`)
 
@@ -51,14 +51,21 @@ EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=sua_clerk_publishable_key
 
 ## 🚀 Como Executar
 
-### 1️⃣ Rodar o Backend
+### 1️⃣ Rodar as Migrations
+
+```bash
+cd backend
+npx drizzle-kit migrate
+```
+
+### 2️⃣ Rodar o Backend
 
 ```bash
 cd backend
 npm run dev
 ```
 
-### 2️⃣ Rodar o Aplicativo Mobile
+### 3️⃣ Rodar o Aplicativo Mobile
 
 ```bash
 cd mobile
@@ -69,4 +76,4 @@ npx expo start
 
 * **React Native + Expo** — Frontend mobile
 * **Express.js + PostgreSQL** — Backend e banco de dados
-* **Clerk** — Verificação de E-mail
+* **Clerk** — Login e Verificação de E-mail
